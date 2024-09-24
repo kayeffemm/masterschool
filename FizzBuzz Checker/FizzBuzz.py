@@ -1,15 +1,10 @@
-# 1 = 1
-# 2 = 2
-# 3 = "Fizz"
-# 4 = 4
-# 5 = "Buzz"
-# 6 = "Fizz"
-# 7 = "Lazz"
-# 10 = "Buzz"
-# 15 = "FizzBuzz"
-# 21 = "FizzLazz"
-# 35 = "BuzzLazz"
-# 105 = "FizzBuzzLazz"
+# 3 = Fizz
+# 5 = Buzz
+# 7 = Lazz
+# 3 & 5 = FizzBuzz
+# 3 & 7 = FizzLazz
+# 5 & 7 = BuzzLazz
+# 3 & 5 & 7 = FizzBuzzLazz
 
 def checker(number_list):
     fizzbuzz_list = []
