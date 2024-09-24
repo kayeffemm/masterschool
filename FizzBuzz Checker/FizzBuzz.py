@@ -17,7 +17,7 @@ def checker(number_list):
         if i % 7 == 0:
             s += "Lazz"
         if s == "":
-                s = str(i)
+            s = str(i)
         fizzbuzz_list.append(s)
     print(fizzbuzz_list)
 
