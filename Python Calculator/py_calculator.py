@@ -39,6 +39,9 @@ def calc_iterations(iterations):
         user_input = input("What do you want to calculate? ")
         print(calculate(user_input))
 
-print("Welcome to the Python calculator!")
-user_input = input("How many calculation do you want to do?")
-calc_iterations(user_input)
+def main():
+    print("Welcome to the Python calculator!")
+    user_input = input("How many calculation do you want to do?")
+    calc_iterations(user_input)
+
+main()
