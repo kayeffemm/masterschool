@@ -44,4 +44,5 @@ def main():
     user_input = input("How many calculation do you want to do?")
     calc_iterations(user_input)
 
-main()
+if __name__ == "__main__":
+    main()
