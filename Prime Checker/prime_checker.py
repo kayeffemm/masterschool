@@ -3,10 +3,13 @@ def is_divisible_by(number, by):
 
 
 def is_prime(number):
-    for i in range(number):
+    range_halved = int(number/2)
+    for i in range(range_halved):
         if i > 1:
             if is_divisible_by(number, i):
                 return False
+    if number <= 1:
+        return False
     return True
 
 
