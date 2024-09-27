@@ -20,7 +20,7 @@ def primes_in_range(start, end):
 
 
 def main():
-    print("Welcome to my Prime Checker!")
+    print("Welcome to my PrimeChecker!")
     user_input_start = int(input("Please enter a positive number from which you want to start:"))
     user_input_end = int(input("Please enter a positive number where you want to end:"))
     primes_in_range(user_input_start, user_input_end)
