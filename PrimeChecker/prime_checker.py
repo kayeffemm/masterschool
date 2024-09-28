@@ -1,15 +1,11 @@
-def is_divisible_by(number, by):
-    return number % by == 0
-
-
 def is_prime(number):
-    range_halved = int(number/2)
-    for i in range(range_halved):
-        if i > 1:
-            if is_divisible_by(number, i):
-                return False
-    if number <= 1:
+    if number == 2:
+        return True
+    if number < 2 or number % 2 == 0:
         return False
+    for i in range(3, number, 2):
+        if number % i == 0:
+            return False
     return True
 
 
